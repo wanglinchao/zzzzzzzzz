@@ -16,6 +16,7 @@
 #import "BMapKit.h"
 #import "MainTabBarViewController.h"
 
+
 @class Reachability;
 @interface IDIAIAppDelegate : UIResponder <UIApplicationDelegate,WXApiDelegate,TencentSessionDelegate,QQApiInterfaceDelegate,WeiboSDKDelegate,UIAlertViewDelegate>
 {
