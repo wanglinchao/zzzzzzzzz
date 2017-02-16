@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="WorkerListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rGi-PD-5AF">
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="90"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7e-3a-jB6">
+                        <rect key="frame" x="15" y="7" width="106" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_gray_juli.png" translatesAutoresizingMaskIntoConstraints="NO" id="AH0-wO-Y79">
+                        <rect key="frame" x="14" y="60" width="13" height="20"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_shoucangliang_sheji_new.png" translatesAutoresizingMaskIntoConstraints="NO" id="zUE-Oa-z92">
+                        <rect key="frame" x="13" y="37" width="17" height="18"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_liulanliang_sheji_new.png" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-A9-yUr">
+                        <rect key="frame" x="88" y="37" width="19" height="19"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jl-Gw-TYs">
+                        <rect key="frame" x="35" y="36" width="50" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWm-Tx-9Bv">
+                        <rect key="frame" x="114" y="36" width="50" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8EA-iN-jH7">
+                        <rect key="frame" x="14" y="33" width="100" height="20"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rc7-im-gWr">
+                        <rect key="frame" x="255" y="6" width="40" height="40"/>
+                    </imageView>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnM-82-vdQ">
+                        <rect key="frame" x="36" y="59" width="155" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rGi-PD-5AF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="V6l-ab-gif"/>
+                    <constraint firstAttribute="trailing" secondItem="rGi-PD-5AF" secondAttribute="trailing" constant="60" id="hE8-5W-Gjp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="distance_lab" destination="jnM-82-vdQ" id="npN-tV-Uls"/>
+                <outlet property="image_brower" destination="f0D-A9-yUr" id="kfL-t8-4nk"/>
+                <outlet property="image_collect" destination="zUE-Oa-z92" id="qZU-NQ-TJt"/>
+                <outlet property="lab_borwer" destination="sWm-Tx-9Bv" id="Hs4-oX-VLM"/>
+                <outlet property="lab_collect" destination="5jl-Gw-TYs" id="unc-eu-WOc"/>
+                <outlet property="name_lab" destination="C7e-3a-jB6" id="INX-Ex-xeK"/>
+                <outlet property="photo_image" destination="Rc7-im-gWr" id="57Y-Bl-v07"/>
+                <outlet property="view_bg" destination="rGi-PD-5AF" id="QiJ-bV-2JK"/>
+                <outlet property="view_star" destination="8EA-iN-jH7" id="KpG-85-Svx"/>
+            </connections>
+            <point key="canvasLocation" x="578" y="179"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_gray_juli.png" width="10" height="16"/>
+        <image name="ic_liulanliang_sheji_new.png" width="16" height="16"/>
+        <image name="ic_shoucangliang_sheji_new.png" width="13" height="16"/>
+    </resources>
+</document>

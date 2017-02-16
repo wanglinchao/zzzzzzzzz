@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>装修需求表</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+</head>
+<body>
+    <style type="text/css">
+        html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            -webkit-box-sizing: border-box;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            -moz-box-sizing: border-box;
+            -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+            box-sizing: border-box;
+            tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        i,em,b{
+            font-style: normal;
+        }
+        a{
+            display: inline-block;
+        }
+
+        html{min-height: 100%; font-size: 100%; -webkit-text-size-adjust: 100%;-moz-text-size-adjust: 100%;text-size-adjust: 100%;}
+        body{margin:0 auto; padding:0; max-width: 640px; min-height: 100%; font-family: Helvetica, Arial, sans-serif; font-size: 12px; word-break:break-all}
+        a{text-decoration: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);-moz-tap-highlight-color: rgba(0, 0, 0, 0);tap-highlight-color: rgba(0, 0, 0, 0);}
+        img{-ms-interpolation-mode: bicubic; vertical-align: middle;}
+        table{border-collapse: collapse; border-spacing: 0;}
+        th, td, caption{vertical-align: middle;}
+        textarea{resize: none;}
+        input, button, select, textarea{outline: none; border-radius: 0; font-family: inherit; font-size: inherit;border: none; background: none;-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+        ul,ol,li{list-style: none;}
+        body{
+            background:#f0f0f5;
+        }
+        div{
+            overflow: hidden;
+            background: #fff;
+        }
+        .title{
+            font-size: 14px;
+            color: #999999;
+            padding-left: 10px;
+            line-height: 20px;
+            padding-top: 6px;
+            margin-top: 10px;
+        }
+        .title i{
+            color:#ef6562; 
+        }
+        p{
+            height: 36px;
+            line-height: 36px;
+            font-size: 16px;
+            color: #fff;
+            padding-left: 10px;
+            background: #ef6562;
+            margin-bottom: 4px;
+            margin-top: 6px;
+        }
+        p .i1{
+            width: 60%;
+            float: left;
+        }
+        dd{
+            padding-bottom: 6px;
+            padding-top: 6px;
+        }
+        dd,dd i{
+            line-height: 24px;
+            overflow: hidden;
+            color: #999999;
+            font-size: 14px;
+        }
+        dd i{
+            line-height: 18px;
+            padding: 3px 0;
+        }
+        dd.on{
+            background: #fcfcfc;
+        }
+        dd em{
+            color: #ef6562; 
+            height: 24px;
+            line-height: 24px;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 3px 0;
+        }
+        dd .span1{
+            width: 60%;
+            float: left;
+        }
+        dd .span1 .i1{
+            width: 35px;
+            float: left;
+            padding-left: 10px;
+        }
+        dd .span1 .i2{
+            width: 50%;
+            float: left;
+        }
+        dd .span1 .em{
+            float: left;
+        }
+        dd .span2{
+            width: 40%;
+            float: left;
+        }
+        dd .span2 i{
+            width: 55%;
+            float: left;
+        }
+        dd .span2 em{
+            float: left;
+        }
+        dd p{
+            background: none;
+            height: auto;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    </style>
+    <div class="title">
+        参考实例：<i>LC101</i> 表示<i>（其他项目－拆墙－是）</i>
+    </div>
+    <div>
+        <p>
+            <i class="i1">一、入户花园</i>
+            <i class="i2">［A］</i>
+        </p>
+        <dl>
+            <dd>
+                <span class="span1">
+                    <i class="i1">1</i>
+                    <i class="i2">墙面处理 </i>
+                    <em>［Q1］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>乳胶漆</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>墙纸</i>
+                        <em>［02］</em>
+                    </p>
+                    <p>
+                        <i>不处理</i>
+                        <em>［03］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd class="on">
+                <span class="span1">
+                    <i class="i1">2</i>
+                    <i class="i2">吊顶</i>
+                    <em>［D2］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>石膏板吊顶</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>生态木吊顶</i>
+                        <em>［02］</em>
+                    </p>
+                    <p>
+                        <i>不做吊顶</i>
+                        <em>［03］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">3</i>
+                    <i class="i2">墙地砖 </i>
+                    <em>［Q3］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>墙砖</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>地砖</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd class="on">
+                <span class="span1">
+                    <i class="i1">4</i>
+                    <i class="i2">凿毛 </i>
+                    <em>［Z4］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">5</i>
+                    <i class="i2">地板找平 </i>
+                    <em>［D4］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd class="on">
+                <span class="span1">
+                    <i class="i1">6</i>
+                    <i class="i2">现场制作柜子 </i>
+                    <em>［X6］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">7</i>
+                    <i class="i2">其他造型 </i>
+                    <em>［Q7］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <p>
+            <i class="i1">二、客厅，餐厅，走廊</i>
+            <i class="i2">［B］</i>
+        </p>
+        <dl>
+            <dd>
+                <span class="span1">
+                    <i class="i1">1</i>
+                    <i class="i2">墙面基层处理 </i>
+                    <em>［J1］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>乳胶漆</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>墙纸</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd class="on">
+                <span class="span1">
+                    <i class="i1">2</i>
+                    <i class="i2">墙地砖</i>
+                    <em>［Q3］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>墙砖</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>地砖</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">3</i>
+                    <i class="i2">踢脚线 </i>
+                    <em>［T2］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>实木</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>瓷砖</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd class="on">
+                <span class="span1">
+                    <i class="i1">4</i>
+                    <i class="i2">地板找平 </i>
+                    <em>［D4］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">5</i>
+                    <i class="i2">电视背景墙 </i>
+                    <em>［D5］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd class="on">
+                <span class="span1">
+                    <i class="i1">6</i>
+                    <i class="i2">沙发背景墙 </i>
+                    <em>［S6］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">7</i>
+                    <i class="i2">现场制作柜子 </i>
+                    <em>［X6］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">8</i>
+                    <i class="i2">石膏线 </i>
+                    <em>［S8］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">9</i>
+                    <i class="i2">吊边顶 </i>
+                    <em>［B1］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>石膏板吊平顶</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>其他材料吊顶</i>
+                        <em>［02］</em>
+                    </p>
+                    <p>
+                        <i>不做吊顶</i>
+                        <em>［03］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">10</i>
+                    <i class="i2">吊平顶 </i>
+                    <em>［D9］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>石膏板吊平顶</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>其他材料吊顶</i>
+                        <em>［02］</em>
+                    </p>
+                    <p>
+                        <i>不做吊顶</i>
+                        <em>［03］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">11</i>
+                    <i class="i2">反光灯槽 </i>
+                    <em>［F9］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">12</i>
+                    <i class="i2">其他造型 </i>
+                    <em>［Q7］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <p>
+            <i class="i1">三、主卧</i>
+            <i class="i2">［C］</i>
+        </p>
+        <dl>
+            <dd>
+                <span class="span1">
+                    <i class="i1">1</i>
+                    <i class="i2">墙面基层处理 </i>
+                    <em>［J1］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>乳胶漆</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>墙纸</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd class="on">
+                <span class="span1">
+                    <i class="i1">2</i>
+                    <i class="i2">墙地砖</i>
+                    <em>［Q3］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>墙砖</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>地砖</i>
+                        <em>［02］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［03］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">3</i>
+                    <i class="i2">踢脚线 </i>
+                    <em>［T2］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>实木</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>瓷砖</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd class="on">
+                <span class="span1">
+                    <i class="i1">4</i>
+                    <i class="i2">石膏线 </i>
+                    <em>［S8］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">5</i>
+                    <i class="i2">现场制作柜子 </i>
+                    <em>［X6］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">6</i>
+                    <i class="i2">床头背景墙 </i>
+                    <em>［C6］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>软包</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>硬包</i>
+                        <em>［02］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［03］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">7</i>
+                    <i class="i2">吊顶 </i>
+                    <em>［D2］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>石膏板吊顶</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>不做吊顶</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">8</i>
+                    <i class="i2">地板找平 </i>
+                    <em>［D5］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+            <dd>
+                <span class="span1">
+                    <i class="i1">9</i>
+                    <i class="i2">其他造型 </i>
+                    <em>［Q7］</em>
+                </span>
+                <span class="span2">
+                    <p>
+                        <i>是</i>
+                        <em>［01］</em>
+                    </p>
+                    <p>
+                        <i>否</i>
+                        <em>［02］</em>
+                    </p>
+                </span>
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <p> <i class="i1"> 四、次卧 </i> <i class="i2">［D］</i> </p>
+        <dl>
+            <dd> <span class="span1"> <i class="i1">1</i> <i class="i2"> 墙面基层处理</i> <em> ［J1］</em> </span> <span class="span2">
+              <p> <i> 乳胶漆 </i> <em>［01］ </em> </p>
+              <p> <i> 墙纸 </i> <em>［02］</em> </p>
+          </span> </dd>
+          <dd class="on"> <span class="span1"> <i class="i1">2</i> <i class="i2"> 墙地砖</i> <em> ［Q3］</em> </span> <span class="span2">
+              <p> <i> 墙砖 </i> <em> ［01］ </em> </p>
+              <p> <i> 地砖 </i> <em>［02］</em> </p>
+              <p> <i>否 </i> <em> ［03］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">3</i> <i class="i2"> 踢脚线</i> <em> ［T2］</em> </span> <span class="span2">
+              <p> <i> 实木 </i> <em> ［01］ </em> </p>
+              <p> <i>瓷砖 </i> <em>［02］</em> </p>
+          </span> </dd>
+          <dd class="on"> <span class="span1"> <i class="i1">4</i> <i class="i2"> 石膏线 </i> <em> ［S8］</em> </span> <span class="span2">
+              <p> <i> 是 </i> <em>［01］ </em> </p>
+              <p> <i>否 </i> <em>［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">5</i> <i class="i2"> 现场制作柜子 </i> <em> ［X6］</em> </span> <span class="span2">
+              <p> <i> 是 </i> <em>［01］ </em> </p>
+              <p> <i>否 </i> <em>［02］</em> </p>
+          </span> </dd>
+          <dd class="on"> <span class="span1"> <i class="i1">6</i> <i class="i2"> 床头背景墙</i> <em> ［C6］</em> </span> <span class="span2">
+              <p> <i> 软包 </i> <em> ［01］ </em> </p>
+              <p> <i> 硬包 </i> <em>［02］</em> </p>
+              <p> <i>否 </i> <em> ［03］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">7</i> <i class="i2"> 吊顶 </i> <em> ［D2］</em> </span> <span class="span2">
+              <p> <i> 石膏板吊顶</i> <em> ［01］ </em> </p>
+              <p> <i> 不做吊顶 </i> <em>［02］</em> </p>
+          </span> </dd>
+          <dd class="on"> <span class="span1"> <i class="i1">8</i> <i class="i2"> 地板找平</i> <em> ［D5］</em> </span> <span class="span2">
+              <p> <i> 是 </i> <em>［01］ </em> </p>
+              <p> <i>否 </i> <em>［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">9</i> <i class="i2"> 其他造型 </i> <em> ［Q7］</em> </span> <span class="span2">
+              <p> <i> 是 </i> <em>［01］ </em> </p>
+              <p> <i>否 </i> <em>［02］</em> </p>
+          </span> </dd>
+      </dl></div>
+      <div>
+        <p>
+            <i class="i1">五、次卧（儿童房）</i>
+            <i class="i2">［E］</i>
+        </p>
+        <dl>
+            <dd> <span class="span1"> <i class="i1">1</i> <i class="i2"> 墙面基层处理 </i> <em> ［J1］ </em> </span> <span class="span2">
+              <p> <i> 乳胶漆 </i> <em>［01］ </em> </p>
+              <p> <i> 墙纸 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">2</i> <i class="i2"> 墙地砖 </i> <em> ［Q3］ </em> </span> <span class="span2">
+              <p> <i> 墙砖 </i> <em>［01］ </em> </p>
+              <p> <i> 地砖 </i> <em> ［02］</em> </p>
+              <p> <i> 否 </i> <em> ［03］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2"> 踢脚线 </i> <em> ［T2］ </em> </span> <span class="span2">
+              <p> <i> 实木 </i> <em>［01］ </em> </p>
+              <p> <i> 瓷砖 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1"> 4 </i> <i class="i2"> 石膏线 </i> <em> ［S8］</em></span><span class="span2">
+              <p><i> 是 </i> <em>［01］ </em> </p>
+              <p> <i> 否 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">5 </i> <i class="i2"> 现场制作柜子 </i> <em> ［X6］ </em></span><span class="span2">
+              <p><i> 是 </i> <em>［01］ </em> </p>
+              <p> <i> 否 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">6 </i> <i class="i2"> 床头背景墙 </i> <em> ［C6］ </em></span><span class="span2">
+              <p><i> 软包 </i> <em>［01］ </em> </p>
+              <p> <i> 硬包 </i> <em> ［02］</em> </p>
+              <p> <i> 否 </i> <em> ［03］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">7 </i> <i class="i2"> 吊顶 </i><em> ［D2］ </em></span><span class="span2">
+              <p><i> 石膏板吊顶 </i> <em>［01］ </em> </p>
+              <p> <i> 不做吊顶 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">8 </i> <i class="i2"> 地板找平 </i><em> ［D5］ </em></span><span class="span2">
+              <p><i> 是 </i> <em>［01］ </em> </p>
+              <p> <i> 否 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">9 </i> <i class="i2"> 其他造型 </i><em> ［Q7］ </em> </span> <span class="span2">
+              <p> <i> 是 </i> <em>［01］ </em> </p>
+              <p> <i> 否 </i> <em> ［02］</em> </p>
+          </span> </dd>
+      </dl></div>
+      <div>
+        <p>
+            <i class="i1">六、次卧（书房） </i>
+            <i class="i2">［F］</i>
+        </p>
+        <dl>
+            <dd> <span class="span1"> <i class="i1">1</i> <i class="i2"> 墙面基层处理 </i> <em> ［J1］ </em> </span> <span class="span2">
+              <p> <i> 乳胶漆 </i> <em>［01］ </em> </p>
+              <p> <i> 墙纸 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">2</i> <i class="i2"> 墙地砖 </i> <em> ［Q3］ </em> </span> <span class="span2">
+              <p> <i> 墙砖 </i> <em>［01］ </em> </p>
+              <p> <i> 地砖 </i> <em> ［02］</em> </p>
+              <p> <i> 否 </i> <em> ［03］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2"> 踢脚线 </i> <em> ［T2］ </em> </span> <span class="span2">
+              <p> <i> 实木 </i> <em>［01］ </em> </p>
+              <p> <i> 瓷砖 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1"> 4 </i> <i class="i2"> 石膏线 </i> <em> ［S8］</em></span><span class="span2">
+              <p><i> 是 </i> <em>［01］ </em> </p>
+              <p> <i> 否 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">5 </i> <i class="i2"> 现场制作柜子 </i> <em> ［X6］ </em></span><span class="span2">
+              <p><i> 是 </i> <em>［01］ </em> </p>
+              <p> <i> 否 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">6 </i> <i class="i2"> 床头背景墙 </i> <em> ［C6］ </em></span><span class="span2">
+              <p><i> 软包 </i> <em>［01］ </em> </p>
+              <p> <i> 硬包 </i> <em> ［02］</em> </p>
+              <p> <i> 否 </i> <em> ［03］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">7 </i> <i class="i2"> 吊顶 </i><em> ［D2］</em></span><span class="span2">
+              <p><i>   石膏板吊顶 </i> <em>［01］ </em> </p>
+              <p> <i> 不做吊顶 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">8 </i> <i class="i2"> 地板找平 </i><em> ［D5］ </em></span><span class="span2">
+              <p><i> 是 </i> <em>［01］ </em> </p>
+              <p> <i> 否 </i> <em> ［02］</em> </p>
+          </span> </dd>
+          <dd> <span class="span1"> <i class="i1">9 </i> <i class="i2"> 其他造型 </i><em> ［Q7］ </em> </span> <span class="span2">
+              <p> <i> 是 </i> <em>［01］ </em> </p>
+              <p> <i> 否 </i> <em> ［02］</em> </p>
+          </span> </dd>
+      </dl>
+  </div>
+  <div>
+    <p>
+        <i class="i1">七、厨房 </i>
+        <i class="i2">［G］</i>
+    </p>
+    <dl>
+        <dd> <span class="span1"> <i class="i1">1</i> <i class="i2"> 墙地砖 </i> <em> ［Q3］ </em> </span> <span class="span2">
+          <p> <i>墙砖 </i> <em>［01］ </em> </p>
+          <p> <i> 地砖 </i> <em> ［02］</em> </p>
+          <p> <i> 否 </i> <em> ［03］</em> </p>
+      </span>
+  </dd>
+  <dd> <span class="span1"> <i class="i1">2</i> <i class="i2"> 防水 </i> <em> ［F2］</em> </span> <span class="span2">
+      <p> <i>  丙纶 </i> <em>［01］ </em> </p>
+      <p> <i> 涂料 </i> <em> ［02］</em> </p>
+      <p> <i> 混合</i> <em>      ［03］</em> </p>
+  </span>
+</dd>
+<dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2"> 吊顶 </i> <em> ［D2］</em> </span> <span class="span2">
+  <p> <i>   石膏板 </i> <em>［01］ </em> </p>
+  <p> <i> 铝扣板 </i> <em> ［02］</em> </p>
+</span> </dd>
+</dl></div>
+<div>
+    <p>
+        <i class="i1">八、主卫生间</i>
+        <i class="i2">［H］</i>
+    </p>
+    <dl>
+        <dd> <span class="span1"> <i class="i1">1</i> <i class="i2"> 墙地砖 </i> <em> ［Q3］ </em> </span> <span class="span2">
+          <p> <i> 墙砖 </i> <em>［01］ </em> </p>
+          <p> <i> 地砖 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1">2</i> <i class="i2"> 防水 </i> <em> ［F2］</em> </span> <span class="span2">
+          <p> <i>  丙纶 </i> <em>［01］ </em> </p>
+          <p> <i> 涂料 </i> <em> ［02］</em> </p>
+          <p> <i> 混合</i> <em>      ［03］</em> </p>
+      </span>
+  </dd>
+  <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2"> 回填 </i> <em> ［H2］</em> </span> <span class="span2">
+      <p> <i> 是 </i> <em>［01］ </em> </p>
+      <p> <i> 否 </i> <em> ［02］</em> </p>
+  </span> </dd>
+  <dd> <span class="span1"> <i class="i1"> 4 </i> <i class="i2"> 浴缸 </i> <em> ［Y1］</em></span><span class="span2">
+      <p><i>  是 </i> <em>［01］ </em> </p>
+      <p> <i> 否 </i> <em> ［02］</em> </p>
+  </span> </dd>
+  <dd> <span class="span1"> <i class="i1">5 </i> <i class="i2"> 马桶 </i> <em> ［M1］</em></span><span class="span2">
+      <p><i>   蹲便 </i> <em>［01］ </em> </p>
+      <p> <i> 坐便 </i> <em> ［02］</em> </p>
+  </span> </dd>
+  <dd> <span class="span1"> <i class="i1">6 </i> <i class="i2"> 吊顶 </i> <em> ［D2］</em></span><span class="span2">
+      <p><i>  石膏板 </i> <em>［01］ </em> </p>
+      <p> <i> 铝扣板 </i> <em> ［02］</em> </p>
+  </span> </dd>
+</dl></div>
+<div>
+    <p>
+        <i class="i1">九、次卫生间</i>
+        <i class="i2">［I］</i>
+    </p>
+    <dl>
+        <dd> <span class="span1"> <i class="i1">1</i> <i class="i2"> 墙地砖 </i> <em> ［Q3］ </em> </span> <span class="span2">
+          <p> <i> 墙砖 </i> <em>［01］ </em> </p>
+          <p> <i> 地砖 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1">2</i> <i class="i2"> 防水 </i> <em> ［F2］</em> </span> <span class="span2">
+          <p> <i> 丙纶 </i> <em>［01］ </em> </p>
+          <p> <i> 涂料 </i> <em> ［02］</em> </p>
+          <p> <i> 混合 </i> <em> ［03］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2"> 回填 </i> <em> ［H2］</em> </span> <span class="span2">
+          <p> <i> 是 </i> <em>［01］ </em> </p>
+          <p> <i> 否 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1"> 4 </i> <i class="i2"> 浴缸</i> <em>［Y1］</em></span><span class="span2">
+          <p><i>   是 </i> <em>［01］ </em> </p>
+          <p> <i> 否 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1">5 </i> <i class="i2"> 马桶 </i> <em> ［M1］</em></span><span class="span2">
+          <p><i>   蹲便 </i> <em>［01］ </em> </p>
+          <p> <i> 坐便 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1">6 </i> <i class="i2"> 吊顶 </i> <em> ［D2］</em></span><span class="span2">
+          <p><i>  石膏板 </i> <em>［01］ </em> </p>
+          <p> <i> 铝扣板 </i> <em> ［02］</em> </p>
+      </span> </dd>
+  </dl></div>
+
+  <div>
+    <p>
+        <i class="i1">十、客厅阳台</i>
+        <i class="i2">［J］</i>
+    </p>
+    <dl>
+        <dd> <span class="span1"> <i class="i1">1</i> <i class="i2"> 墙地砖 </i> <em> ［Q3］ </em> </span> <span class="span2">
+          <p> <i> 墙砖 </i> <em>［01］ </em> </p>
+          <p> <i> 地砖 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1">2</i> <i class="i2"> 防水 </i> <em> ［F2］</em> </span> <span class="span2">
+          <p> <i>  丙纶 </i> <em>［01］ </em> </p>
+          <p> <i> 涂料 </i> <em> ［02］</em> </p>
+          <p> <i> 混合</i> <em>      ［03］</em> </p>
+      </span>
+  </dd>
+  <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2">踢脚线 </i> <em> ［T2］ </em> </span> <span class="span2">
+      <p> <i>    实木 </i> <em>［01］ </em> </p>
+      <p> <i> 瓷砖 </i> <em> ［02］</em> </p>
+  </span> </dd>
+  <dd> <span class="span1"> <i class="i1"> 4 </i> <i class="i2"> 凿毛</i> <em> ［Z4］ </em></span><span class="span2">
+      <p><i>   是 </i> <em>［01］ </em> </p>
+      <p> <i> 否 </i> <em> ［02］</em> </p>
+  </span> </dd>
+  <dd> <span class="span1"> <i class="i1">5 </i> <i class="i2"> 吊顶 </i> <em> ［D2］</em></span><span class="span2">
+      <p><i>   石膏板 </i> <em>［01］ </em> </p>
+      <p> <i> 生态木 </i> <em> ［02］</em> </p>
+  </span> </dd>
+</dl></div>
+
+<div>
+    <p>
+        <i class="i1">十一、生活阳台 </i>
+        <i class="i2">［K］</i>
+    </p>
+    <dl>
+        <dd> <span class="span1"> <i class="i1">1</i> <i class="i2"> 墙地砖 </i> <em> ［Q3］ </em> </span> <span class="span2">
+          <p> <i> 墙砖 </i> <em>［01］ </em> </p>
+          <p> <i> 地砖 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1">2</i> <i class="i2"> 防水 </i> <em> ［F2］</em> </span> <span class="span2">
+          <p> <i>  丙纶 </i> <em>［01］ </em> </p>
+          <p> <i> 涂料 </i> <em> ［02］</em> </p>
+          <p> <i> 混合</i> <em>      ［03］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2">踢脚线 </i> <em> ［T2］  </em> </span> <span class="span2">
+          <p> <i>   实木 </i> <em>［01］ </em> </p>
+          <p> <i> 瓷砖 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1"> 4 </i> <i class="i2"> 凿毛 </i> <em> ［Z4］</em></span><span class="span2">
+          <p><i>   是 </i> <em>［01］ </em> </p>
+          <p> <i> 否 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1">5 </i> <i class="i2"> 吊顶 </i> <em> ［D2］</em></span><span class="span2">
+          <p><i>                   石膏板 </i> <em>［01］ </em> </p>
+          <p> <i> 生态木 </i> <em> ［02］</em> </p>
+      </span> </dd>
+  </dl></div>
+  <div>
+    <p>
+        <i class="i1">十二、其他项目</i>
+        <i class="i2">［L］</i>
+    </p>
+    <dl>
+        <dd> <span class="span1"> <i class="i1">1</i> <i class="i2"> 拆墙（20墙） </i> <em> ［C1］      </em> </span> <span class="span2">
+          <p> <i> 是</i> <em>［01］ </em> </p>
+          <p> <i> 否 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1">2</i> <i class="i2"> 拆除铝合金门窗</i> <em> ［C2］</em> </span> <span class="span2">
+          <p> <i>        是 </i> <em>［01］ </em> </p>
+          <p> <i> 否 </i> <em> ［02］</em> </p>
+      </span> </dd>
+      <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2"> 建渣清运费、日常清洁</i>
+        <em>［J3］</em></span> <span class="span2">
+        <p> <i> </i> <em> ［03］</em> </p>
+    </span> </dd>
+    <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2"> 材料搬运费</i>
+        <em>［C4］</em></span> <span class="span2">
+        <p> <i> </i> <em> ［04］</em> </p>
+    </span> </dd>
+    <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2"> 完工保洁</i>
+        <em>［W5］</em></span> <span class="span2">
+        <p> <i> </i> <em> ［05］</em> </p>
+    </span> </dd>
+    <dd> <span class="span1"> <i class="i1"> 3</i> <i class="i2"> 成品保护费</i>
+        <em>［C7］</em></span> <span class="span2">
+        <p> <i> </i> <em> ［06］</em> </p>
+    </span> </dd>
+
+</dl></div>
+</body>
+</html>    

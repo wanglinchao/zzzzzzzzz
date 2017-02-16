@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="95" id="Fjt-5i-0lT" userLabel="CollectDesignerCell" customClass="CollectDesignerCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fjt-5i-0lT" id="hYv-Yr-fbT">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3CG-rI-7fC">
+                        <rect key="frame" x="0.0" y="0.0" width="260" height="90"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gn1-wm-rRH">
+                        <rect key="frame" x="20" y="12" width="122" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Se-as-JkE">
+                        <rect key="frame" x="20" y="38" width="147" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZtQ-VC-LOj">
+                        <rect key="frame" x="205" y="50" width="40" height="34"/>
+                        <state key="normal" image="bt_yuyue_nor.png">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted" image="bt_yuyue_pressed.png"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQ8-Jv-kkG">
+                        <rect key="frame" x="43" y="62" width="46" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fvx-2W-fIl">
+                        <rect key="frame" x="120" y="62" width="56" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_liulanliang_sheji_new.png" translatesAutoresizingMaskIntoConstraints="NO" id="MbF-R9-DbC">
+                        <rect key="frame" x="97" y="63" width="19" height="19"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_shoucangliang_sheji_new.png" translatesAutoresizingMaskIntoConstraints="NO" id="PWA-y2-GCm">
+                        <rect key="frame" x="20" y="63" width="17" height="18"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ksh-7Z-dA6">
+                        <rect key="frame" x="205" y="25" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="MIL-XT-vdb"/>
+                            <constraint firstAttribute="height" constant="40" id="a6q-HY-gGX"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2R8-5Y-shj">
+                        <rect key="frame" x="21" y="59" width="100" height="20"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="3CG-rI-7fC" secondAttribute="bottom" id="ARd-o6-xSN"/>
+                    <constraint firstItem="3CG-rI-7fC" firstAttribute="leading" secondItem="hYv-Yr-fbT" secondAttribute="leading" id="dLD-1z-cTY"/>
+                    <constraint firstAttribute="trailing" secondItem="ksh-7Z-dA6" secondAttribute="trailing" constant="75" id="dh2-jw-KcI"/>
+                    <constraint firstAttribute="trailing" secondItem="3CG-rI-7fC" secondAttribute="trailing" constant="60" id="q0m-P8-hZS"/>
+                    <constraint firstItem="3CG-rI-7fC" firstAttribute="top" secondItem="hYv-Yr-fbT" secondAttribute="top" id="wgq-pn-6I0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="designer_express" destination="6Se-as-JkE" id="shO-c2-2xa"/>
+                <outlet property="designer_name" destination="gn1-wm-rRH" id="GKo-2J-ZFf"/>
+                <outlet property="designer_phone" destination="ZtQ-VC-LOj" id="qiC-w8-QlS"/>
+                <outlet property="designer_photo" destination="ksh-7Z-dA6" id="I2k-pG-gEe"/>
+                <outlet property="image_brower" destination="MbF-R9-DbC" id="biV-OM-WvK"/>
+                <outlet property="image_collect" destination="PWA-y2-GCm" id="vzD-DB-Ku3"/>
+                <outlet property="lab_brower" destination="Fvx-2W-fIl" id="bPa-Jl-t1V"/>
+                <outlet property="lab_collect" destination="vQ8-Jv-kkG" id="NSh-gg-npA"/>
+                <outlet property="view_star" destination="2R8-5Y-shj" id="2ol-DP-3h4"/>
+            </connections>
+            <point key="canvasLocation" x="334" y="156"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bt_yuyue_nor.png" width="47" height="24"/>
+        <image name="bt_yuyue_pressed.png" width="46" height="46"/>
+        <image name="ic_liulanliang_sheji_new.png" width="16" height="16"/>
+        <image name="ic_shoucangliang_sheji_new.png" width="13" height="16"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

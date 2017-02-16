@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="f7I-Qe-bdb">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" tag="101" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wU7-Uv-u6Z">
+                    <rect key="frame" x="20" y="8" width="70" height="70"/>
+                    <color key="backgroundColor" red="0.91372549020000005" green="0.30196078430000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="kS7-Lf-eIz"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="范德萨发顺丰撒发送发顺丰撒哇" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aET-3v-I8E">
+                    <rect key="frame" x="100" y="8" width="226" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.62745098039215685" green="0.62745098039215685" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="103" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="颜色分类：白色" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8w1-V1-Z1g">
+                    <rect key="frame" x="100" y="32" width="226" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.62745098039215685" green="0.62745098039215685" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="￥100.00 x 1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Whu-3h-9z2">
+                    <rect key="frame" x="100" y="57" width="226" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.93725490196078431" green="0.396078431372549" blue="0.38431372549019605" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view tag="110" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a6k-55-ZQh" customClass="TextStepperField">
+                    <rect key="frame" x="206" y="81" width="106" height="31"/>
+                    <color key="backgroundColor" red="1" green="0.2197960615" blue="0.14154666660000001" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="a6k-55-ZQh" secondAttribute="trailing" constant="8" id="CeG-Do-EfV"/>
+                <constraint firstItem="wU7-Uv-u6Z" firstAttribute="bottom" secondItem="Whu-3h-9z2" secondAttribute="bottom" id="KPt-Db-itB"/>
+                <constraint firstItem="8w1-V1-Z1g" firstAttribute="leading" secondItem="wU7-Uv-u6Z" secondAttribute="trailing" constant="10" id="M9I-ie-7kS"/>
+                <constraint firstItem="aET-3v-I8E" firstAttribute="leading" secondItem="wU7-Uv-u6Z" secondAttribute="trailing" constant="10" id="YwR-Nv-POP"/>
+                <constraint firstItem="wU7-Uv-u6Z" firstAttribute="top" secondItem="f7I-Qe-bdb" secondAttribute="topMargin" id="ZpL-7e-teS"/>
+                <constraint firstItem="wU7-Uv-u6Z" firstAttribute="leading" secondItem="f7I-Qe-bdb" secondAttribute="leadingMargin" constant="12" id="h7F-s7-8SL"/>
+                <constraint firstItem="a6k-55-ZQh" firstAttribute="top" secondItem="Whu-3h-9z2" secondAttribute="bottom" constant="3" id="jB4-DK-1k2"/>
+                <constraint firstItem="Whu-3h-9z2" firstAttribute="leading" secondItem="wU7-Uv-u6Z" secondAttribute="trailing" constant="10" id="lu1-m4-SNv"/>
+                <constraint firstAttribute="bottom" secondItem="wU7-Uv-u6Z" secondAttribute="bottom" constant="42" id="mbQ-tW-aiZ"/>
+                <constraint firstItem="wU7-Uv-u6Z" firstAttribute="top" secondItem="aET-3v-I8E" secondAttribute="top" id="wB6-NV-Bh9"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="496" y="219"/>
+        </view>
+    </objects>
+</document>

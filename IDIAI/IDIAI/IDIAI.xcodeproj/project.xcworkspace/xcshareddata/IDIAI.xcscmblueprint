@@ -1,0 +1,39 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4D3142166880953C541513021A3A33E16D540641",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4D3142166880953C541513021A3A33E16D540641" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c5cc7a73-e8d9-490d-9634-3b60bc1daca3++9344" : 0,
+    "c5cc7a73-e8d9-490d-9634-3b60bc1daca3++6206" : 0,
+    "4D3142166880953C541513021A3A33E16D540641" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3173314C-F311-491C-8EDA-DB716FC8C3F6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c5cc7a73-e8d9-490d-9634-3b60bc1daca3++9344" : "IDIAI",
+    "c5cc7a73-e8d9-490d-9634-3b60bc1daca3++6206" : "IDIAIIDIAI\/until\/BaiDuMapSDK",
+    "4D3142166880953C541513021A3A33E16D540641" : "IDIAI"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IDIAI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IDIAI.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.3.2",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4D3142166880953C541513021A3A33E16D540641"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.3.2",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c5cc7a73-e8d9-490d-9634-3b60bc1daca3++6206"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.3.2",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c5cc7a73-e8d9-490d-9634-3b60bc1daca3++9344"
+    }
+  ]
+}

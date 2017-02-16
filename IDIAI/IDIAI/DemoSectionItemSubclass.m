@@ -1,0 +1,36 @@
+//
+//  DemoSectionItemSubclass.m
+//  IDIAI
+//
+//  Created by iMac on 14-11-25.
+//  Copyright (c) 2014年 Qttec Technology (SiChuan) Co., Ltd. All rights reserved.
+//
+
+#import "DemoSectionItemSubclass.h"
+
+@implementation DemoSectionItemSubclass
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+        
+        // Setting a nice BG Image for our sections
+        // self.bgImageView.image = [UIImage imageNamed:@"sectionItemBG"];
+    }
+    return self;
+}
+
+
+-(void)layoutSubviews
+{
+    [super layoutSubviews];
+    
+    // modifying our title labels frame
+    
+    self.titleLabel.frame = CGRectMake(2, 0, self.bounds.size.width*0.45+10, self.bounds.size.height);
+    
+}
+
+@end
